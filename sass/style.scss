@@ -3,6 +3,7 @@ $font-text: 'Libre Baskerville', serif;
 $font-header: 'Inter', sans-serif;
 $color-main: #eccc68;
 $color-light: #f1f2f6;
+$color-dark: #2f3542;
 
 /* Global */
 *, *::before, *::after {
@@ -118,10 +119,10 @@ ul {
 }
 .fas {
 	color: $color-main;
-	font-size: 40px;
+	font-size: 30px;
 	border: 3px solid $color-main;
-	border-radius: 50%;
-	padding: 15px;
+	border-radius: 50%;	
+	padding: 20px;
 }
 .service-name {
 	font-family: $font-header;
@@ -158,4 +159,38 @@ ul {
 	font-style: oblique;
 	margin-top: 0;
 	padding: 10px;
+}
+
+/* Footer */
+footer {
+	h5 {
+	color: gray;
+	font-size: 16px;
+	text-align: left;
+	}
+}
+footer {
+	ul {
+	li {
+	font-size: 0;
+	}
+	}
+}
+footer {
+	ul {
+	li {
+	a {
+	i {
+		font-size: 25px;
+		text-shadow: none;
+		background: $color-dark;
+		border-radius: 50%;
+		padding-top: 30%;
+		width: 60px;
+    	height: 60px;
+    	margin-bottom: 10px;
+	}
+	}
+	}
+	}
 }
