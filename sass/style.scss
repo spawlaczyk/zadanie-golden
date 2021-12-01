@@ -1,0 +1,17 @@
+/* Variables */
+$font-text: 'Libre Baskerville', serif;
+$font-header: 'Inter', sans-serif;
+
+/* Global */
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+body {
+	font-size: 20px;
+	margin: 0;
+	line-height: 1.2;
+	text-align: center;
+	font-family: $font-text;
+}
+
+/* Header */
